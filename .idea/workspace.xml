@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2010460-d879-4a0b-a7a5-df0a7cdc53de" name="Changes" comment="Scope Exercise implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Context.kt" afterDir="false" />
+    <list default="true" id="a2010460-d879-4a0b-a7a5-df0a7cdc53de" name="Changes" comment="Suspending Functions Exercise implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Jobs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +55,11 @@
   "keyToString": {
     "Gradle.Build KotlinCoroutines.executor": "Run",
     "Kotlin.ContextKt.executor": "Run",
+    "Kotlin.JobsKt.executor": "Run",
     "Kotlin.LightweihtCoroutinesKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.ScopeKt.executor": "Run",
+    "Kotlin.SuspendingFunctionsKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -69,7 +72,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.SuspendingFunctionsKt">
+  <component name="RunManager" selected="Kotlin.JobsKt">
     <configuration name="ContextKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ContextKt" />
       <module name="KotlinCoroutines.main" />
@@ -77,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HelloWorldKt" />
+    <configuration name="JobsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JobsKt" />
       <module name="KotlinCoroutines.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.JobsKt" />
         <item itemvalue="Kotlin.SuspendingFunctionsKt" />
         <item itemvalue="Kotlin.ContextKt" />
         <item itemvalue="Kotlin.ScopeKt" />
         <item itemvalue="Kotlin.LightweightCoroutinesKt" />
-        <item itemvalue="Kotlin.HelloWorldKt" />
       </list>
     </recent_temporary>
   </component>
@@ -148,13 +151,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726147686971</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Context Exercise implemented">
+      <option name="closed" value="true" />
+      <created>1726148198988</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726148198988</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Suspending Functions Exercise implemented">
+      <option name="closed" value="true" />
+      <created>1726148451417</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726148451417</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello World Exercise implemented" />
     <MESSAGE value="Lightweight Exercise implemented" />
     <MESSAGE value="Scope Exercise implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scope Exercise implemented" />
+    <MESSAGE value="Context Exercise implemented" />
+    <MESSAGE value="Suspending Functions Exercise implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Suspending Functions Exercise implemented" />
   </component>
 </project>
