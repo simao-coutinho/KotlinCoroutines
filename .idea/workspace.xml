@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2010460-d879-4a0b-a7a5-df0a7cdc53de" name="Changes" comment="Lightweight Exercise implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Scope.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a2010460-d879-4a0b-a7a5-df0a7cdc53de" name="Changes" comment="Scope Exercise implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Context.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build KotlinCoroutines.executor": "Run",
+    "Kotlin.ContextKt.executor": "Run",
     "Kotlin.LightweihtCoroutinesKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.ScopeKt.executor": "Run",
@@ -69,7 +69,14 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.ScopeKt">
+  <component name="RunManager" selected="Kotlin.SuspendingFunctionsKt">
+    <configuration name="ContextKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ContextKt" />
+      <module name="KotlinCoroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.HelloWorldKt" />
       <module name="KotlinCoroutines.main" />
@@ -91,8 +98,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SuspendingFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SuspendingFunctionsKt" />
+      <module name="KotlinCoroutines.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SuspendingFunctionsKt" />
+        <item itemvalue="Kotlin.ContextKt" />
         <item itemvalue="Kotlin.ScopeKt" />
         <item itemvalue="Kotlin.LightweightCoroutinesKt" />
         <item itemvalue="Kotlin.HelloWorldKt" />
@@ -124,12 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726147403227</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Scope Exercise implemented">
+      <option name="closed" value="true" />
+      <created>1726147686971</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726147686971</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello World Exercise implemented" />
     <MESSAGE value="Lightweight Exercise implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lightweight Exercise implemented" />
+    <MESSAGE value="Scope Exercise implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scope Exercise implemented" />
   </component>
 </project>
